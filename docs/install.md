@@ -44,7 +44,7 @@
 
    ```bash
    chmod +x ./upload.sh
-   ./upload.sh <download_dir> <registry> # ./update.sh ./downloads 192.168.178.17:5000
+   ./upload.sh <download_dir> <registry> # ./upload.sh ./downloads 192.168.178.17:5000
    
    ```
 
