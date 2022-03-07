@@ -8,7 +8,7 @@ IMGS=( "nginx-photon" "hyperregistry-portal" "harbor-core" "harbor-jobservice"
 
 
 function usage() {
-  echo "[Usage]: CLI=<registry_client(default: podman)> ./upload.sh <archive_dir_path> <registry_domain>"
+  echo "[Usage]: CLI=<registry_client(default: docker)> ./upload.sh <archive_dir_path> <registry_domain>"
   echo "    ex): CLI=docker ./upload.sh ./downloads 172.22.11.2:5000"
 }
 
@@ -26,7 +26,7 @@ then
   exit 1
 fi
 
-CLIENT=${CLI:=podman}
+CLIENT=${CLI:=docker}
 TAG=v2.2.2
 SAVEDIR=${1}
 TARGETREG=${2}
