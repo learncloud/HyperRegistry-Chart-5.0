@@ -7,6 +7,7 @@ IMGS=( "nginx-photon" "hyperregistry-portal" "harbor-core" "harbor-jobservice"
 "registry-photon" "harbor-registryctl" "chartmuseum-photon" "trivy-adapter-photon"
 "notary-server-photon" "notary-signer-photon" "harbor-db" "redis-photon" "harbor-exporter" )
 CLIENT=${CLI:=podman}
+#test
 
 function usage() {
   echo "[Usage]: CLI=<registry_client(default: podman)> ./download.sh <save_dir>(default: downloads)"
