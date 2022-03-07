@@ -16,7 +16,7 @@
 
    1. git repo 클론
       ```bash
-      git clone -b 5.0 https://github.com/tmax-cloud/HyperRegistry-Chart
+      git clone -b 5.0 https://github.com/learncloud/HyperRegistry-Chart-5.0.git
       ```
    2. HyperRegistry 이미지 다운로드
       ```bash
