@@ -24,7 +24,7 @@
       chmod +x download.sh
       ./download.sh <download_dir> # ./download.sh ./downloads
       ```
-   3. [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0#Prerequsite - helm 참조) 
+   3. [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0/#Prerequsite - helm 참조) 
 
 2. git repo 전체(다운로드한 이미지 포함)를 내부망으로 복사
 
