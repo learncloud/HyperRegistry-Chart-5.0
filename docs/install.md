@@ -43,7 +43,8 @@
 
    ```bash
    chmod +x ./upload.sh
-   ./upload.sh <download_dir> <registry> # ./update.sh ./downloads 172.22.11.2:5000
+   ./upload.sh <download_dir> <registry> # ./update.sh ./downloads 192.168.178.17:5000
+   
    ```
 
 ### 2. 설치
