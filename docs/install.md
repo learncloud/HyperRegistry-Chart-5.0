@@ -36,7 +36,7 @@
    sudo yum -y install git podman
    ```
 
-4. 폐쇄망 환경에 레지스트리 설치 ([참조](https://github.com/tmax-cloud/install-registry/tree/5.0))
+4. 폐쇄망 환경에 레지스트리 설치 [참조](https://github.com/tmax-cloud/install-registry/tree/5.0)
 
 5. 설치한 레지스트리에 이미지 업로드
 
