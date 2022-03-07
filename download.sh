@@ -6,10 +6,12 @@ REG="docker.io/tmaxcloudck"
 IMGS=( "nginx-photon" "hyperregistry-portal" "harbor-core" "harbor-jobservice"
 "registry-photon" "harbor-registryctl" "chartmuseum-photon" "trivy-adapter-photon"
 "notary-server-photon" "notary-signer-photon" "harbor-db" "redis-photon" "harbor-exporter" )
-CLIENT=${CLI:=podman}
-#test
+CLIENT=${CLI:=docker}
+#CLIENT=${CLI:=podman}
+
 
 function usage() {
+  #echo "[Usage]: CLI=<registry_client(default: docker)> ./download.sh <save_dir>(default: downloads)"
   echo "[Usage]: CLI=<registry_client(default: podman)> ./download.sh <save_dir>(default: downloads)"
   echo "    ex): CLI=docker ./download.sh archive"
 }
