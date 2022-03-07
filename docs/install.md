@@ -55,7 +55,8 @@
    - 이미지 레지스트리 소스 설정
      
       ```bash
-      sed 's/__REPO__/<registry>/' ./values.yaml.tpl > ./values.yaml
+      #sed 's/__REPO__/<registry>/' ./values.yaml.tpl > ./values.yaml
+      sed 's/__REPO__/192.168.178.17:5000/' ./values.yaml.tpl > ./values.yaml
       
       ```
         > public망에 접근가능한 환경에 설치할 경우 registry에 `tmaxcloudck` 입력
