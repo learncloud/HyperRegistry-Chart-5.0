@@ -34,7 +34,8 @@
    ```bash
    cd <copied_repo>
    sudo cp <helm_binary> /usr/local/bin
-   sudo yum -y install git podman
+   #sudo yum -y install git podman
+   
    ```
 
 4. 폐쇄망 환경에 레지스트리 설치 [참조](https://github.com/tmax-cloud/install-registry/tree/5.0)
@@ -55,6 +56,7 @@
      
       ```bash
       sed 's/__REPO__/<registry>/' ./values.yaml.tpl > ./values.yaml
+      
       ```
         > public망에 접근가능한 환경에 설치할 경우 registry에 `tmaxcloudck` 입력
 
