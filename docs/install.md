@@ -78,14 +78,14 @@
 
        1. Ingress를 사용할 경우
           1. 자동으로 자체 발급한 인증서를 사용할 경우 
-             - **expose.type**: `ingress`
-             - **expose.ingress.hosts.core**: `core.hr.<ingress_external_IP>.nip.io`
+             - **expose.type**: `ingress` (**현재 이것을 사용중**)
+             - **expose.ingress.hosts.core**: `core.hr.<ingress_external_IP>.nip.io` # ex) core.hyperregistry.hypercloud.com`
              - **expose.ingress.hosts.notray**: `notary.hr.<ingress_external_IP>.nip.io`
              - **expose.ingress.annotations**: `kubernetes.io/ingress.class: "nginx-shd"`
              - **externalURL**: `https://core.hr.<ingress_external_IP>.nip.io`
            
           2. 외부에서 발행한 인증서를 사용할 경우
-             - **expose.type**: `ingress`
+             - **expose.type**: `ingress` 
              - **expose.ingress.hosts.core**: `<core의 도메인이름> ex) core.hyperregistry.hypercloud.com`
              - **expose.ingress.hosts.notray**: `<notary의 도메인이름> ex) notary.hyperregistry.hypercloud.com`
              - **expose.ingress.annotations**: `kubernetes.io/ingress.class: "nginx-shd"`
