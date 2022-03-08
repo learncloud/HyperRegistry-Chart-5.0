@@ -75,14 +75,15 @@
        - **expose.tls.secret.notarySecretName**: `<notary_secret_name>`
    
    - 도메인 설정
-
+   
        1. Ingress를 사용할 경우
           1. 자동으로 자체 발급한 인증서를 사용할 경우 
              - **expose.type**: `ingress` (**현재 이것을 사용중**)
-             - **expose.ingress.hosts.core**: `core.hr.<ingress_external_IP>.nip.io` # ex) core.hyperregistry.hypercloud.com`
-             - **expose.ingress.hosts.notray**: `notary.hr.<ingress_external_IP>.nip.io`
-             - **expose.ingress.annotations**: `kubernetes.io/ingress.class: "nginx-shd"`
-             - **externalURL**: `https://core.hr.<ingress_external_IP>.nip.io`
+             - **expose.ingress.hosts.core**: `core.hr.<ingress_external_IP>.nip.io`  // ex) core.hr.192.168.178.82.nip.io
+             - **expose.ingress.hosts.notray**: `notary.hr.<ingress_external_IP>.nip.io`  // ex) notary.hr.192.168.178.82
+.nip.io
+             - **expose.ingress.annotations**: `kubernetes.io/ingress.class: "nginx-shd"` 
+             - **externalURL**: `https://core.hr.<ingress_external_IP>.nip.io` // ex) https://core.hr.192.168.178.82.nip.io
            
           2. 외부에서 발행한 인증서를 사용할 경우
              - **expose.type**: `ingress` 
