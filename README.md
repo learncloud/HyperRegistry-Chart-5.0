@@ -21,7 +21,7 @@ This is helm repository for HyperReigstry
 4. 프로젝트 환경설정
    1. Proejcts > [생성한 레지스트리] > Configuration
    2. (필요 여부에 따라) 다음 항목 체크
-      - Public ()
+      - Public (check)
       - Enable content trust
       - Prevent vulnerable images from running
       - Automatically scan image on push
