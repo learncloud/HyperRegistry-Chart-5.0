@@ -35,7 +35,7 @@ This is helm repository for HyperReigstry
 ### 신뢰하는 서버로 등록하기
 **[NOTE] Harbor로부터 이미지를 pull받을 모든 노드에 적용**
 1. 인증서(ca.crt) 다운로드
-   1. Proejcts > [임의의 레지스트리] > Registry Certificate 클릭 **(이거 Projects -> Repositories -> REGISTRY CERTIFICATE 다운 클릭)**
+   1. Proejcts > [임의의 레지스트리] > Registry Certificate 클릭 **(이거 Projects -> Repositories -> REGISTRY CERTIFICATE 다운 클릭을 잘못쓴듯)**
 2. (모든 노드에) 인증서 등록
    1. 다운로드한 인증서(ca.crt)를 신뢰하는 인증서 경로에 복사 및 등록
       - CentOS
