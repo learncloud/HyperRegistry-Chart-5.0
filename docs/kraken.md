@@ -42,7 +42,7 @@
 1. values.yaml 수정
 
    - repository & tag
-     - 레지스트리에 업로드한 이미지에 맞게 변경 ex) repository: 172.22.11.2:5000, tag: v0.1.4
+     - 레지스트리에 업로드한 이미지에 맞게 변경 ex) repository: `172.22.11.2:5000` 와 `tag: v0.1.4` 변경
    - build_index.extarBackends & origin.extraBackends 추가
      - address: HyperRegistry의 도메인
      - username & password: 해당 repository username과 password
