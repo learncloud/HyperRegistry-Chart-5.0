@@ -60,9 +60,12 @@ This is helm repository for HyperReigstry
 
 ### 이미지 푸시하기
 ```bash
-docker login [harbor_domain]/[project] # docker login core.hr.192.168.178.82.nip.io/library
-docker tag [to_push_image] [harbor_domain]/[project]/[repository]:[tag]
-docker push [harbor_domain]/[project]/[repository]:[tag]
+docker login [harbor_domain]/[project] # docker login core.hr.192.168.178.82.nip.io/test-project # 로그인은 admin/admin이 기본임 -- docker에 로그인 계정으로 하는게 아님
+docker pull {imgge} # docker pull nginx
+docker tag [to_push_image] [harbor_domain]/[project]/[repository]:[tag] # docker tag nginx:latest core.hr.192.168.178.82.nip.io/test-project/nginx:latest
+docker push [harbor_domain]/[project]/[repository]:[tag] # docker push core.hr.192.168.178.82.nip.io/test-project/nginx:latest
+#Hyper registry 업로드 완료스크린샷은 바탕화면에
+
 ```
 
 ### 이미지 풀하기
