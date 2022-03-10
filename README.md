@@ -60,7 +60,7 @@ This is helm repository for HyperReigstry
 
 ### 이미지 푸시하기
 ```bash
-docker login [harbor_domain]/[project] # podman login core.hr.172.10.0.2.nip.io/library
+docker login [harbor_domain]/[project] # docker login core.hr.192.168.178.17.nip.io/library
 docker tag [to_push_image] [harbor_domain]/[project]/[repository]:[tag]
 docker push [harbor_domain]/[project]/[repository]:[tag]
 ```
