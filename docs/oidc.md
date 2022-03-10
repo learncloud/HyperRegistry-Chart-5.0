@@ -64,7 +64,7 @@ HyperRegistry가 발급한 계정을 사용해야한다. 해당 정보는 웹 �
    
 4. 다음 설정값 입력
 
-- OIDC Endpoint: (ex: https://{hyperauth.org}/auth/realms/[realm] ) ##해당부분을 참고할 스크린샷은 바탕화면에 있음##
+- OIDC Endpoint: (ex: https://{hyperauth.org}/auth/realms/[realm] ) **해당부분을 참고할 스크린샷은 바탕화면에 있음**
 - OIDC Client ID: [clientID]
 - OIDC Client Secret: [secret]
 - Group Claim Name: **HyperAuth에서_생성한_group_mapper명(group)**
