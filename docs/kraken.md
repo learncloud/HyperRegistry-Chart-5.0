@@ -4,7 +4,7 @@
 
 - git (checked version: 2.25.1)
 - podman (checked version: v3.1.2)
-- [helm](https://helm.sh/docs/intro/install/) (v2.8.0+)
+- [helm](https://helm.sh/docs/intro/install/) (v3.8.0+)
 - [kubectl](https://kubernetes.io/ko/docs/tasks/tools/install-kubectl-linux/) (checked version: v1.19.4)
 - ingress controller
 
