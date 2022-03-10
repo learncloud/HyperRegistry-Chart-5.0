@@ -32,7 +32,9 @@
 3. 폐쇄망 환경의 레지스트리에 이미지 업로드
    ```bash
    chmod +x ./kraken-upload.sh
-   ./kraken-upload.sh <download_dir> <registry> # ./kraken-upload.sh ./kraken-downloads 172.22.11.2:5000
+   # vi kraken-upload.sh → podman을 docker로 교체
+   ./kraken-upload.sh <download_dir> <registry> # ./kraken-upload.sh ./kraken-downloads 192.168.178.17:5000
+   
    ```
 
 ### 설치
