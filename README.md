@@ -13,7 +13,7 @@ This is helm repository for HyperReigstry
 ## Usage
 ### 레지스트리 생성 및 설정하기
 1. 포털 로그인 (https://core.harbor.domain)    
-# core.hr.192.168.178.82.nip.io
+`core.hr.192.168.178.82.nip.io`
 
 3. 프로젝트 생성하기
    1. Projects > New Project 클릭
