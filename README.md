@@ -60,12 +60,12 @@ This is helm repository for HyperReigstry
 
 ### 이미지 푸시하기
 ```bash
-podman login [harbor_domain]/[project] # podman login core.hr.172.10.0.2.nip.io/library
-podman tag [to_push_image] [harbor_domain]/[project]/[repository]:[tag]
-podman push [harbor_domain]/[project]/[repository]:[tag]
+docker login [harbor_domain]/[project] # podman login core.hr.172.10.0.2.nip.io/library
+docker tag [to_push_image] [harbor_domain]/[project]/[repository]:[tag]
+docker push [harbor_domain]/[project]/[repository]:[tag]
 ```
 
 ### 이미지 풀하기
 ```bash
-podman pull [harbor_domain]/[project]/[repository]:[tag]
+docker pull [harbor_domain]/[project]/[repository]:[tag]
 ```
