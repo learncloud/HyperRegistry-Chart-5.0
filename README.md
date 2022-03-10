@@ -22,9 +22,9 @@ This is helm repository for HyperReigstry
    1. Proejcts > [생성한 레지스트리] > Configuration
    2. (필요 여부에 따라) 다음 항목 체크
       - Public (check)
-      - Enable content trust
-      - Prevent vulnerable images from running
-      - Automatically scan image on push
+      - Enable content trust (non-check)
+      - Prevent vulnerable images from running (non-check)
+      - Automatically scan image on push (non-check)
    3. Save
 5. (Optional) 레지스트리 사용자 생성 및 등록
    1. Administration > Users > New User
