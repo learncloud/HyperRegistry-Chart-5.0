@@ -67,8 +67,3 @@ docker push [harbor_domain]/[project]/[repository]:[tag] # docker push core.hr.1
 #Hyper registry 업로드 완료스크린샷은 바탕화면에
 
 ```
-
-### 이미지 풀하기
-```bash
-docker pull [harbor_domain]/[project]/[repository]:[tag]
-```
