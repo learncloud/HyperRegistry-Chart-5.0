@@ -14,12 +14,14 @@
 
 1. (외부망 환경에서) Kraken 이미지 및 바이너리 다운로드
 
-   1. Kraken 이미지 다운로드
+   1. Kraken 이미지 다운로드 **(해당부분 참고 스크린샷은 바탕화면에) **
       ```bash
       # cd HyperRegistry-Chart/contrib/kraken
       cd ${REPO_HOME}/contrib/kraken # REPO_HOME is HyperRegistry-Chart's home path
       chmod +x ./kraken-download.sh
       ./kraken-download.sh <download_dir> # ./kraken-download.sh ./kraken-downloads
+      # vi kraken-download.sh → podman을 docker로 교체
+      
       ```
    2. Helm 클라이언트 다운로드 (Prerequsite - helm 참조)
 
