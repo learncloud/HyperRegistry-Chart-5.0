@@ -12,11 +12,13 @@ This is helm repository for HyperReigstry
 
 ## Usage
 ### 레지스트리 생성 및 설정하기
-1. 포털 로그인 (https://core.harbor.domain)
-2. 프로젝트 생성하기
+1. 포털 로그인 (https://core.harbor.domain)    
+# core.hr.192.168.178.82.nip.io
+
+3. 프로젝트 생성하기
    1. Projects > New Project 클릭
    2. 이름 입력 후 OK
-3. 프로젝트 환경설정
+4. 프로젝트 환경설정
    1. Proejcts > [생성한 레지스트리] > Configuration
    2. (필요 여부에 따라) 다음 항목 체크
       - Public
@@ -24,7 +26,7 @@ This is helm repository for HyperReigstry
       - Prevent vulnerable images from running
       - Automatically scan image on push
    3. Save
-4. (Optional) 레지스트리 사용자 생성 및 등록
+5. (Optional) 레지스트리 사용자 생성 및 등록
    1. Administration > Users > New User
    2. 유저 생성
    3. Project > [생성한 유저가 사용할 프로젝트] > Members > + User
