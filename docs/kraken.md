@@ -16,6 +16,7 @@
 
    1. Kraken 이미지 다운로드
       ```bash
+      # cd HyperRegistry-Chart/contrib/kraken
       cd ${REPO_HOME}/contrib/kraken # REPO_HOME is HyperRegistry-Chart's home path
       chmod +x ./kraken-download.sh
       ./kraken-download.sh <download_dir> # ./kraken-download.sh ./kraken-downloads
