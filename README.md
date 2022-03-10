@@ -2,8 +2,7 @@
 This is helm repository for HyperReigstry
 
 ## Installation
-- [폐쇄망 환경 준비](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/install.md#폐쇄망에서-설치를-위한-환경-준비하기)
-- [설치](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/install.md#설치)
+- [폐쇄망 환경 설치준비](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/install.md#폐쇄망에서-설치를-위한-환경-준비하기)
 - [HyperAuth OIDC 연동](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/oidc.md)
 - [P2P Preheat 연동](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/kraken.md)
 - [외부 Registry Replication 연동](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/replication.md)
