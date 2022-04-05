@@ -41,8 +41,9 @@ This is helm repository for HyperReigstry
    - 다운로드한 인증서(ca.crt)를 신뢰하는 인증서 경로에 복사 및 등록
       - CentOS
         ```bash
-        cp ca.crt /etc/pki/ca-trust/source/anchors
+        scp C:\Users\jace\Desktop\test.txt root@192.168.178.17:/etc/pki/ca-trust/source/anchors
         update-ca-trust
+        
         ```
       - Ubuntu
         ```bash
