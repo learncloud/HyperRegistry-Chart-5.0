@@ -11,8 +11,8 @@ CLIENT=${CLI:=docker}
 
 
 function usage() {
-  #echo "[Usage]: CLI=<registry_client(default: docker)> ./download.sh <save_dir>(default: downloads)"
-  echo "[Usage]: CLI=<registry_client(default: podman)> ./download.sh <save_dir>(default: downloads)"
+  echo "[Usage]: CLI=<registry_client(default: docker)> ./download.sh <save_dir>(default: downloads)"
+  #echo "[Usage]: CLI=<registry_client(default: podman)> ./download.sh <save_dir>(default: downloads)"
   echo "    ex): CLI=docker ./download.sh archive"
 }
 
