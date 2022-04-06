@@ -37,8 +37,11 @@ This is helm repository for HyperReigstry
       ```bash
       cd HyperRegistry-Chart
       chmod +x download.sh
-      ./download.sh <download_dir> # ./download.sh ./downloads
+      ./download.sh ./downloads
+      #./download.sh <download_dir>
+      
       ```
+      
    3. [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0/) 
 
 ## 공통 설치 진행
