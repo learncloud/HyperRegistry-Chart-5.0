@@ -15,7 +15,31 @@ This is helm repository for HyperReigstry
 - [이미지 서명 가이드 (Download pptx)](https://tmaxcloud-ck1-2.s3.ap-northeast-2.amazonaws.com/%EC%9D%B4%EB%AF%B8%EC%A7%80+%EC%84%9C%EB%AA%85.pptx)
 
 ## HyperRegistry-Chart 설치
-### git (checked version: 1.8.3.1)
+## Prerequisite
+
+- git (checked version: 1.8.3.1)
+- podman (checked version: v3.0.1) `or` Docker-ce (checked version 20.10.12)
+- [helm](https://helm.sh/docs/intro/install/) **홈페이지에설치방식있음** (v3.8.0+)
+- [kubectl](https://kubernetes.io/ko/docs/tasks/tools/install-kubectl-linux/) (checked version: v1.19.4)
+- ingress controller
+
+## Installation
+
+### 1. 폐쇄망 환경 준비
+
+1. (외부망 환경에서) HyperRegistry 이미지 및 바이너리 다운로드
+
+   1. git repo 클론
+      ```bash
+      git clone -b 5.0 https://github.com/learncloud/HyperRegistry-Chart-5.0.git
+      ```
+   2. HyperRegistry 이미지 다운로드
+      ```bash
+      cd HyperRegistry-Chart
+      chmod +x download.sh
+      ./download.sh <download_dir> # ./download.sh ./downloads
+      ```
+   3. [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0/) 
 
 ## 공통 설치 진행
 ### 레지스트리 생성 및 설정하기
