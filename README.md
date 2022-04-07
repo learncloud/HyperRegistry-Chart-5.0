@@ -25,6 +25,7 @@ This is helm repository for HyperReigstry
    - [kubectl](https://kubernetes.io/ko/docs/tasks/tools/install-kubectl-linux/) (checked version: v1.19.4)
    - ingress controller
 
+
 ### A. 폐쇄망 환경 준비
 
 1. (외부망 환경에서) HyperRegistry 이미지 및 바이너리 다운로드
@@ -39,11 +40,19 @@ This is helm repository for HyperReigstry
       cd HyperRegistry-Chart
       chmod +x download.sh
       ./download.sh ./downloads
+      
       #./download.sh <download_dir>
+      # docker를 사용할 경우 download.sh내에 podman을 docker로 수정하고 진행해야합니다
       
       ```
       
-   3. [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0/) 
+  
+  
+  
+  
+  
+  <br><br><br><br><br>
+  [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0/) 
 
 ## 공통 설치 진행
 ### 레지스트리 생성 및 설정하기
