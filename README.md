@@ -27,65 +27,65 @@ This is helm repository for HyperReigstry
    - ingress controller
 
 
-### A. 폐쇄망 환경 준비
+   ### A. 폐쇄망 환경 준비
 
-1. (외부망 환경에서) HyperRegistry 이미지 및 바이너리 다운로드
+   1. (외부망 환경에서) HyperRegistry 이미지 및 바이너리 다운로드
 
-   1. git repo 클론
-      ```bash
-      git clone -b 5.0 https://github.com/learncloud/HyperRegistry-Chart-5.0.git
+      1. git repo 클론
+         ```bash
+         git clone -b 5.0 https://github.com/learncloud/HyperRegistry-Chart-5.0.git
+         
+         ```
       
-      ```
+      2. HyperRegistry 이미지 다운로드
+         ```bash
+         cd HyperRegistry-Chart
+         chmod +x download.sh
+         ./download.sh ./downloads
+         
+         #./download.sh <download_dir>
+         # docker를 사용할 경우 download.sh내에 podman을 docker로 수정하고 진행해야합니다
+         
+         ```
+        
+   ### B. git 설치 & Docker-ce 설치
       
-   2. HyperRegistry 이미지 다운로드
-      ```bash
-      cd HyperRegistry-Chart
-      chmod +x download.sh
-      ./download.sh ./downloads
-      
-      #./download.sh <download_dir>
-      # docker를 사용할 경우 download.sh내에 podman을 docker로 수정하고 진행해야합니다
-      
-      ```
+      - GIT 설치
+         ```bash
+         yum intall -y git
+        
+         ```
+        
+   -  docker-ce 설치<br>
+         [docker-ce설치 참고](https://github.com/learncloud/install-registry-docker-ce)
+         
+          
+   ### C. helm 설치
      
-### B. git 설치 & Docker-ce 설치
+   1. Helm 바이너리 파일을 다운받고 설치 합니다.
    
-   - GIT 설치
-      ```bash
-      yum intall -y git
-     
-      ```
-     
-  -  docker-ce 설치<br>
-      [docker-ce설치 참고](https://github.com/learncloud/install-registry-docker-ce)
-      
-     
-### C. helm 설치
-  
-  1. Helm 바이너리 파일을 다운받고 설치 합니다.
-
-   - 작업 디렉토리 생성 및 환경 설정
-
-   ```bash
-   mkdir -p ~/helm
-   export HELM_HOME=~/helm
-   cd $HELM_HOME
-   ```
-
-   - 외부 네트워크 통신이 가능한 환경에서 필요한 바이너리를 다운로드 받습니다.
-
-   ```bash
-   #현재 /root/helm 파일임을 가정
-   https://github.com/helm/helm/releases 에서 파일을 다운 받습니다.
-   wget https://github.com/helm/helm/archive/refs/tags/v3.8.0.tar.gz
-   cp v3.8.0.tar.gz helm-v3.8.0.tar.gz
-   mv  helm-v3.8.0.tar.gz /root/HyperRegistry-Chart/downloads
+      - 작업 디렉토리 생성 및 환경 설정
    
-   ```
+      ```bash
+      mkdir -p ~/helm
+      export HELM_HOME=~/helm
+      cd $HELM_HOME
+      ```
 
-2. 폐쇄망으로 파일(.tar)을 옮깁니다.
+      - 외부 네트워크 통신이 가능한 환경에서 필요한 바이너리를 다운로드 받습니다.
 
-3. 폐쇄망에서 .tar 압축을 풀고 설치 합니다.
+      ```bash
+      #현재 /root/helm 파일임을 가정
+      https://github.com/helm/helm/releases 에서 파일을 다운 받습니다.
+      wget https://github.com/helm/helm/archive/refs/tags/v3.8.0.tar.gz
+      cp v3.8.0.tar.gz helm-v3.8.0.tar.gz
+      mv  helm-v3.8.0.tar.gz /root/HyperRegistry-Chart/downloads
+   
+      ```
+
+   2. 폐쇄망으로 파일(.tar)을 옮깁니다.
+
+   3. 폐쇄망에서 .tar 압축을 풀고 설치 합니다.
 
    ```bash
    tar -xvf  helm-{version}-{arch}.tar.gz
