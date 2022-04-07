@@ -19,6 +19,7 @@ This is helm repository for HyperReigstry
 
 
 ## 1. HyperRegistry 설치
+   - HyperRegistry 이미지 설치
    - git (checked version: 1.8.3.1) `ex. yum intall git`
    - podman (checked version: v3.0.1) `or` Docker-ce (checked version 20.10.12)
    - [helm](https://helm.sh/docs/intro/install/) **홈페이지에설치방식있음** (v3.8.0+)
