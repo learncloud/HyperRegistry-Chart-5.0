@@ -1,7 +1,7 @@
 # HyperAuth OIDC 연동
 
-> **OIDC 레지스트리 로그인**: OIDC를 연동한 경우, 이미지 Push & Pull을 위한 레지스트리 계정은 OIDC 계정이 아니라,
-HyperRegistry가 발급한 계정을 사용해야한다. 해당 정보는 웹 콘솔에 OIDC 로그인 한 후, 오른쪽 상단의 사용자 프로필에서 확인할 수 있다. (Username, CLI Secret) 
+> **OIDC 레지스트리 로그인 Check**: OIDC를 연동 테스트, Username, CLI Secret를 알아보고싶을경우
+  HyperRegistry가 발급한 계정을 사용해야한다. 해당 정보는 웹 콘솔에 OIDC 로그인 한 후, 오른쪽 상단의 사용자 프로필에서 확인할 수 있다. 
 
 ![레지스트리 클릭](OIDC_CLICK.png)
 ![레지스트리 로그인](user_profile.png)
