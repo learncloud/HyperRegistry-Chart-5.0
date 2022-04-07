@@ -62,7 +62,7 @@ This is helm repository for HyperReigstry
           
    ### C. helm 설치
      
-    [Helm 설치 참고](https://github.com/learncloud/install-helm-v3.0)
+      [Helm 설치 참고](https://github.com/learncloud/install-helm-v3.0)
   
 
 ## 공통 설치 진행
