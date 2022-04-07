@@ -57,7 +57,7 @@ This is helm repository for HyperReigstry
       ```
      
   -  DOCKER 설치
-      [docker-ce설치 참고] (https://github.com/learncloud/install-registry-docker-ce)
+      [docker-ce설치 참고](https://github.com/learncloud/install-registry-docker-ce)
       
      
  ### C. helm 설치
