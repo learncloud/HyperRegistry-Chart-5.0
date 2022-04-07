@@ -60,7 +60,7 @@ This is helm repository for HyperReigstry
       [docker-ce설치 참고](https://github.com/learncloud/install-registry-docker-ce)
          
           
-   ### C. helm 설치
+- C. helm 설치
       - Helm 설치
       [Helm 설치 참고](https://github.com/learncloud/install-helm-v3.0)
   
