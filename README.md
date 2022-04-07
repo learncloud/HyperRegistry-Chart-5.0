@@ -51,13 +51,13 @@ This is helm repository for HyperReigstry
    ### B. git 설치 & Docker-ce 설치
       
       - GIT 설치
-         ```bash
-         yum intall -y git
+      ```bash
+      yum intall -y git
         
-         ```
+      ```
         
    -  docker-ce 설치<br>
-         [docker-ce설치 참고](https://github.com/learncloud/install-registry-docker-ce)
+      [docker-ce설치 참고](https://github.com/learncloud/install-registry-docker-ce)
          
           
    ### C. helm 설치
