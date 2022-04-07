@@ -35,6 +35,7 @@ This is helm repository for HyperReigstry
       git clone -b 5.0 https://github.com/learncloud/HyperRegistry-Chart-5.0.git
       
       ```
+      
    2. HyperRegistry 이미지 다운로드
       ```bash
       cd HyperRegistry-Chart
@@ -45,11 +46,10 @@ This is helm repository for HyperReigstry
       # docker를 사용할 경우 download.sh내에 podman을 docker로 수정하고 진행해야합니다
       
       ```
-      
-  
-  
-  
-  
+     
+     
+     
+     
   
   <br><br><br><br><br>
   [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0/) 
