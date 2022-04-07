@@ -64,13 +64,18 @@ This is helm repository for HyperReigstry
      [Helm 설치 참고](https://github.com/learncloud/install-helm-v3.0)
   
   
+  
+  
 <br><br><br>
+
 ## 2. HyperAuth OIDC 연동
-   - OIDC 연동 가이드 <br>
-      [OIDC 연동 방법](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/oidc.md)
+   - [OIDC 연동 방법](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/oidc.md)
+
+
 
 
 <br><br><br><br><br>
+
 ## 3. 공통 설치 진행
 ### 레지스트리 생성 및 설정하기
 1. 포털 로그인 (https://core.hr.domain)    
