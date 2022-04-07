@@ -66,8 +66,9 @@ This is helm repository for HyperReigstry
   
 <br><br><br>
 ## 2. HyperAuth OIDC 연동
-   - OIDC 연동 가이드
+   - OIDC 연동 가이드 <br>
       [OIDC 연동 방법](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/oidc.md)
+
 
 <br><br><br><br><br>
 ## 3. 공통 설치 진행
