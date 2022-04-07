@@ -15,8 +15,6 @@ This is helm repository for HyperReigstry
 - [이미지 서명 가이드 (Download pptx)](https://tmaxcloud-ck1-2.s3.ap-northeast-2.amazonaws.com/%EC%9D%B4%EB%AF%B8%EC%A7%80+%EC%84%9C%EB%AA%85.pptx)
 
 ## 1. HyperRegistry 설치
-- Prerequisite
-
    - git (checked version: 1.8.3.1) `ex. yum intall git`
    - podman (checked version: v3.0.1) `or` Docker-ce (checked version 20.10.12)
    - [helm](https://helm.sh/docs/intro/install/) **홈페이지에설치방식있음** (v3.8.0+)
