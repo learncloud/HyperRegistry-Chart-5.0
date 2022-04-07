@@ -62,43 +62,7 @@ This is helm repository for HyperReigstry
           
    ### C. helm 설치
      
-   1. Helm 바이너리 파일을 다운받고 설치 합니다.
-   
-      - 작업 디렉토리 생성 및 환경 설정
-   
-      ```bash
-      mkdir -p ~/helm
-      export HELM_HOME=~/helm
-      cd $HELM_HOME
-      ```
-
-      - 외부 네트워크 통신이 가능한 환경에서 필요한 바이너리를 다운로드 받습니다.
-
-      ```bash
-      #현재 /root/helm 파일임을 가정
-      https://github.com/helm/helm/releases 에서 파일을 다운 받습니다.
-      wget https://github.com/helm/helm/archive/refs/tags/v3.8.0.tar.gz
-      cp v3.8.0.tar.gz helm-v3.8.0.tar.gz
-      mv  helm-v3.8.0.tar.gz /root/HyperRegistry-Chart/downloads
-   
-      ```
-
-   2. 폐쇄망으로 파일(.tar)을 옮깁니다.
-
-   3. 폐쇄망에서 .tar 압축을 풀고 설치 합니다.
-
-   ```bash
-   tar -xvf  helm-{version}-{arch}.tar.gz
-   #압축풀린 폴더 내부에 진입 합니다.
-   #helm 바이너리를 /usr/local/bin으로 옮깁니다.
-   mv helm-3.8.0/ /usr/local/bin/
-   
-   # 더이상 필요없는 helm 폴더 제거
-   cd ~
-   rm -rf helm
-      
-   ```
-   - 비고: helm version은 3을 기준으로 합니다.
+    [Helm 설치 참고](https://github.com/learncloud/install-helm-v3.0)
   
 
 ## 공통 설치 진행
