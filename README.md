@@ -14,7 +14,7 @@ This is helm repository for HyperReigstry
 - [외부 HA REDIS 구성](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/redis.md)
 - [이미지 서명 가이드 (Download pptx)](https://tmaxcloud-ck1-2.s3.ap-northeast-2.amazonaws.com/%EC%9D%B4%EB%AF%B8%EC%A7%80+%EC%84%9C%EB%AA%85.pptx)
 
-## HyperRegistry-Chart 설치
+## HyperRegistry 설치
 ## Prerequisite
 
 - git (checked version: 1.8.3.1) `ex. yum intall git`
@@ -32,6 +32,7 @@ This is helm repository for HyperReigstry
    1. git repo 클론
       ```bash
       git clone -b 5.0 https://github.com/learncloud/HyperRegistry-Chart-5.0.git
+      
       ```
    2. HyperRegistry 이미지 다운로드
       ```bash
