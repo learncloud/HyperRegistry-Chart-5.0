@@ -22,7 +22,7 @@ This is helm repository for HyperReigstry
    - HyperRegistry 이미지 설치
    - git (checked version: 1.8.3.1) `ex. yum intall git`
    - podman (checked version: v3.0.1) `or` Docker-ce (checked version 20.10.12)
-   - [helm](https://helm.sh/docs/intro/install/) **홈페이지에설치방식있음** (v3.8.0+)
+   - [helm](https://github.com/learncloud/install-helm-v3.0)  (v3.8.0+)
    - [kubectl](https://kubernetes.io/ko/docs/tasks/tools/install-kubectl-linux/) (checked version: v1.19.4)
    - ingress controller
 
@@ -49,13 +49,18 @@ This is helm repository for HyperReigstry
       ```
      
   ### B. git 설치 & Docker-ce 설치
+   
+   - GIT 설치
+      ```bash
+      yum intall -y git
      
-     ```bash
-     yum intall -y git
+      ```
      
-     ```
+  -  DOCKER 설치
+      [docker-ce설치 참고] (https://github.com/learncloud/install-registry-docker-ce)
+      
      
- ### C. helm
+ ### C. helm 설치
   
   <br><br><br><br><br>
   [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0/) 
