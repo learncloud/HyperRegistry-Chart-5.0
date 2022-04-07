@@ -48,9 +48,10 @@ This is helm repository for HyperReigstry
          
          ```
         
-   ### B. git 설치 & Docker-ce 설치 &
+   ### B. git 설치 & Docker-ce 설치 & helm 설치
       
-      - GIT 설치
+   - GIT 설치
+      
       ```bash
       yum intall -y git
         
