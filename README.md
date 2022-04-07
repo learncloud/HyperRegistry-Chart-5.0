@@ -48,14 +48,14 @@ This is helm repository for HyperReigstry
       
       ```
      
-  ### B. git 설치
+  ### B. git 설치 & Docker-ce 설치
      
      ```bash
      yum intall -y git
      
      ```
      
- ### B. git 설치
+ ### C. helm
   
   <br><br><br><br><br>
   [Helm 클라이언트 다운로드](https://github.com/learncloud/install-helm-v3.0/) 
