@@ -48,7 +48,7 @@ This is helm repository for HyperReigstry
          
          ```
         
-   ### B. git 설치 & Docker-ce 설치
+   ### B. git 설치 & Docker-ce 설치 &
       
       - GIT 설치
       ```bash
@@ -60,9 +60,8 @@ This is helm repository for HyperReigstry
       [docker-ce설치 참고](https://github.com/learncloud/install-registry-docker-ce)
          
           
-- C. helm 설치
-      - Helm 설치
-      [Helm 설치 참고](https://github.com/learncloud/install-helm-v3.0)
+   - helm 설치
+     [Helm 설치 참고](https://github.com/learncloud/install-helm-v3.0)
   
 
 ## 공통 설치 진행
