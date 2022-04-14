@@ -12,7 +12,11 @@
 
    1. Client Scopes > Create
    2. 이름 입력 후 Save
+    ![클라이언트](client.png)
+    
    3. Mappers 탭에서 Create
+    ![Mappers 생성](Mappers.png)
+    
    4. 다음의 내용으로 생성
       - Name: group
       - Mapper Type: Group Membership
@@ -20,7 +24,9 @@
       - Add to ID token: On
       - Add to access token: On
       - Add to userinfo: On
-
+    ![Mappers 상세페이지](Mappers2.png)
+    
+    
 4. 클라이언트 생성
 
    1. Clients > Create
