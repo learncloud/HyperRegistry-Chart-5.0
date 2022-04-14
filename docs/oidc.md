@@ -32,7 +32,7 @@
    1. Clients > Create
    2. Client ID 입력(2.4의 [clientID]), Client Protocol = openid-connect 선택 
    3. Save 클릭
-    ![클라이언트생성] (create_client.png)
+    ![클라이언트생성](create_client.png)
     
 5. 클라이언트 설정
 
