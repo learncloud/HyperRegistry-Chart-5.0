@@ -82,7 +82,7 @@
 2. (LNB) Administration > Configuration 클릭
 
 - Auth Mode: OIDC 선택
-- OIDC Endpoint: (ex: https://{hyperauth.org}/auth/realms/[realm] ) **해당부분을 참고할 스크린샷은 바탕화면에 있음**
+- OIDC Endpoint: (ex: https://{hyperauth.org}/auth/realms/[realm] ) 
 - OIDC Client ID: [clientID]
 - OIDC Client Secret: [secret]
 - Group Claim Name: **group** (HyperAuth에서_생성한_group_mapper명)
@@ -104,3 +104,7 @@
 ![레지스트리 클릭](OIDC_CLICK.png)
 ![레지스트리 로그인](user_profile.png)
 
+
+- `참고`
+> 사용자를 생성할 때 First Name, Last Name를 설정하지 않으면 OIDC 레지스트리 로그인이 안될 수 있습니다
+![OIDC](OIDCjoin.png)
