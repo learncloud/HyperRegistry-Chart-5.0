@@ -56,8 +56,9 @@
    2. 그룹명 입력 후 Save
 
 7. 사용자 생성 및 생성한 그룹에 추가
-
-   1. Username, Email, First Name, Last Name 입력 **(First Name, Last Name를 설정하지 않으면 OIDC 레지스트리 로그인 Check로 로그인이 안될 수 있습니다)**
+   **(First Name, Last Name를 설정하지 않으면 OIDC 레지스트리 로그인 Check로 로그인이 안될 수 있습니다)**
+   
+   1. Username, Email, First Name, Last Name 입력 
    2. Email Verfieid On 선택 후 Save
    3. Createndtials 탭에서 Password, Password Confirmation 입력
    4. Temporary Off 선택 후 Set Password
