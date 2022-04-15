@@ -85,8 +85,8 @@
 - OIDC Endpoint: (ex: https://{hyperauth.org}/auth/realms/[realm] ) **해당부분을 참고할 스크린샷은 바탕화면에 있음**
 - OIDC Client ID: [clientID]
 - OIDC Client Secret: [secret]
-- Group Claim Name: **HyperAuth에서_생성한_group_mapper명(group)**
-- OIDC Admin Group: **HyperAuth에서_생성한_그룹명**
+- Group Claim Name: **group** (HyperAuth에서_생성한_group_mapper명)
+- OIDC Admin Group: **hyperregistry** (HyperAuth에서_생성한_그룹명)
 - OIDC Scope: openid
 - Automatic onboarding 체크
 - Username Claim: name
