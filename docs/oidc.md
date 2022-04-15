@@ -45,8 +45,11 @@
    ![클라이언트설정](setting_client.png)
    
    4. (생성된) Credentials 탭에서 Secret 값 복사 (2.4의 [secret])
+   ![클라이언트설정](setting_client2.png)
+   
    5. Client Scopes > Default Client Scopes에서 3.2에서 생성한 이름 클릭 후 Add selected 클릭 
-
+   ![클라이언트스코프](Default_Client_Scopes.png)
+   
 6. 그룹 생성
 
    1. Groups > New
