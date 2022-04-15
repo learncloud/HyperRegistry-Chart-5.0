@@ -80,7 +80,6 @@
 ![로그인](hyper_login.png)
 
 2. (LNB) Administration > Configuration 클릭
-![OIDC_join](HyperAuth_OIDC_join.png)
 
 - Auth Mode: OIDC 선택
 - OIDC Endpoint: (ex: https://{hyperauth.org}/auth/realms/[realm] ) **해당부분을 참고할 스크린샷은 바탕화면에 있음**
@@ -91,6 +90,7 @@
 - OIDC Scope: openid
 - Automatic onboarding 체크
 - Username Claim: name
+![OIDC_join](HyperAuth_OIDC_join.png)
 
 5. Test OIDC SERVER 클릭하여 연결 여부 확인 후 Save
 
