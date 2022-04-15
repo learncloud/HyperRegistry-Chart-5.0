@@ -61,12 +61,15 @@
    (First Name, Last Name를 설정하지 않으면 OIDC 레지스트리 로그인이 안될 수 있습니다 **최하단 비고부분의 사진참고**)
    
    1. Add user 클릭
+   ![유저만들기](user_create.png)
+   
    2. Username, Email, First Name, Last Name 입력 
    3. Email Verfieid On 선택 후 Save
    4. Createndtials 탭에서 Password, Password Confirmation 입력
    5. Temporary Off 선택 후 Set Password
-   6. Groups > Available Groups에서 **6번(그룹생성)** 에서 생성한 그룹 선택 후 Join
 
+   6. Groups > Available Groups에서 **6번(그룹생성)** 에서 생성한 그룹 선택 후 Join
+   ![유저조인](user_join.png)
 
 ## 2. HyperRegistry에 설정하기
 
