@@ -54,7 +54,7 @@
 
    1. Groups > New
    2. 그룹명 입력 후 Save
-<br><br><br>
+    <br><br><br>
 
 
 7. 사용자 생성 및 생성한 그룹에 추가 <br>
@@ -77,9 +77,11 @@
 ## 2. HyperRegistry에 설정하기
 
 1. HyperRegistry 접속 및 관리자 로그인(admin/ admin)
-   
+![로그인](hyper_login.png)
+
 2. (LNB) Administration > Configuration 클릭
-   
+![OIDC_join](HyperAuth_OIDC_join.png)
+
 3. Auth Mode: OIDC 선택
    
 4. 다음 설정값 입력
