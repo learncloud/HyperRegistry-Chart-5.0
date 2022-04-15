@@ -64,7 +64,7 @@
    2. Email Verfieid On 선택 후 Save
    3. Createndtials 탭에서 Password, Password Confirmation 입력
    4. Temporary Off 선택 후 Set Password
-   5. Groups > Available Groups에서 6.에서 생성한 그룹 선택 후 Join
+   5. Groups > Available Groups에서 **6번(그룹생성)** 에서 생성한 그룹 선택 후 Join
 
 
 ## 2. HyperRegistry에 설정하기
