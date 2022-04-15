@@ -90,12 +90,12 @@
 - OIDC Scope: openid
 - Automatic onboarding 체크
 - Username Claim: name
+- Test OIDC SERVER 클릭하여 연결 여부 확인 후 Save
+
 ![OIDC_join](HyperAuth_OIDC_join.png)
 
-5. Test OIDC SERVER 클릭하여 연결 여부 확인 후 Save
-
-
 <br><br><br><br>
+
 - 비고
 
 > **OIDC 레지스트리 로그인 Check**: OIDC를 연동 테스트, Username, CLI Secret를 알아보고싶을경우
