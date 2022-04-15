@@ -82,10 +82,7 @@
 2. (LNB) Administration > Configuration 클릭
 ![OIDC_join](HyperAuth_OIDC_join.png)
 
-3. Auth Mode: OIDC 선택
-   
-4. 다음 설정값 입력
-
+- Auth Mode: OIDC 선택
 - OIDC Endpoint: (ex: https://{hyperauth.org}/auth/realms/[realm] ) **해당부분을 참고할 스크린샷은 바탕화면에 있음**
 - OIDC Client ID: [clientID]
 - OIDC Client Secret: [secret]
