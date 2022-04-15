@@ -62,15 +62,18 @@
    
    1. Add user 클릭
    ![유저만들기](user_create.png)
+   <br>
    
    2. Username, Email, First Name, Last Name 입력 
    3. Email Verfieid On 선택 후 Save
    4. Createndtials 탭에서 Password, Password Confirmation 입력
    5. Temporary Off 선택 후 Set Password
-
+   <br>
+   
    6. Groups > Available Groups에서 **6번(그룹생성)** 에서 생성한 그룹 선택 후 Join
    ![유저조인](user_join.png)
-
+   <br>
+   
 ## 2. HyperRegistry에 설정하기
 
 1. HyperRegistry 접속 및 관리자 로그인(admin/ admin)
