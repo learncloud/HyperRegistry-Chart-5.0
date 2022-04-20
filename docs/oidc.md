@@ -93,17 +93,16 @@
 - Test OIDC SERVER 클릭하여 연결 여부 확인 후 Save
 
 ![OIDC_join](HyperAuth_OIDC_join.png)
-![레지스트리 클릭1](OIDC_CLICK.png)
-<br><br><br><br>
+
+
 
 `123123`
 
 - `비고`
   - **OIDC 레지스트리 로그인 Check**: OIDC를 연동 테스트, Username, CLI Secret를 알아보고싶을경우 HyperRegistry가 발급한 계정을 사용해야한다. 해당 정보는 웹 콘솔에 OIDC 로그인 한 후, 오른쪽 상단의 사용자 프로필에서 확인할 수 있다. 
 
-<br>
     
-
+    ![레지스트리 클릭1](OIDC_CLICK.png)
     ![레지스트리 로그인](user_profile.png)
 
 
