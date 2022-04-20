@@ -96,17 +96,4 @@
 
 <br><br><br><br>
 
-
-    ![레지스트리 클릭1](OIDC_CLICK.png)
-
-    ![레지스트리 로그인](user_profile.png)
-
-
-    ![레지스트리 클릭2](OIDC_CLICK.png)
-
-    ![OIDC](OIDCjoin.png)
-
-
-
-
-
+123123
