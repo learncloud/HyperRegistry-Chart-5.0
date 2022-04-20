@@ -96,28 +96,16 @@
 
 <br><br><br><br>
 
-- `비고`
-  - **OIDC 레지스트리 로그인 Check**: OIDC를 연동 테스트, Username, CLI Secret를 알아보고싶을경우 HyperRegistry가 발급한 계정을 사용해야한다. 해당 정보는 웹 콘솔에 OIDC 로그인 한 후, 오른쪽 상단의 사용자 프로필에서 확인할 수 있다. 
 
-<br>
     ![레지스트리 클릭1](OIDC_CLICK.png)
 
     ![레지스트리 로그인](user_profile.png)
 
 
-- `참고`
-    - 사용자를 생성할 때 First Name, Last Name를 설정하지 않으면 OIDC 레지스트리 로그인이 안될 수 있습니다
-<br>
-
     ![레지스트리 클릭2](OIDC_CLICK.png)
 
     ![OIDC](OIDCjoin.png)
 
-
-- `해결방법`    
-    - 사용자(user) 계정을 클릭해서 First Name, Last Name부분을 채워주면 됩니다.
-  
-    <br>
 
 
 
