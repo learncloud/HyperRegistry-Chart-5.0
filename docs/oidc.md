@@ -101,17 +101,17 @@
 
 <br>
     ![레지스트리 클릭1](OIDC_CLICK.png)
-<br>
+
     ![레지스트리 로그인](user_profile.png)
 
 
 - `참고`
     - 사용자를 생성할 때 First Name, Last Name를 설정하지 않으면 OIDC 레지스트리 로그인이 안될 수 있습니다
 <br>
+
     ![레지스트리 클릭2](OIDC_CLICK.png)
-<br>
+
     ![OIDC](OIDCjoin.png)
-    <br>
 
 
 - `해결방법`    
