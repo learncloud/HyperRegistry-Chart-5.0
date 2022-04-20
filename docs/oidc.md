@@ -113,4 +113,4 @@
 
 - `해결방법`    
     - 사용자(user) 계정을 클릭해서 First Name, Last Name부분을 채워주면 됩니다.
-  
+    ![로그인완료](login-success.png)
