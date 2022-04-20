@@ -102,6 +102,7 @@
 
 <br>
 ![레지스트리 클릭](OIDC_CLICK.png)
+<br>
 ![레지스트리 로그인](user_profile.png)
 
 
