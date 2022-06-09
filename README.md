@@ -6,6 +6,7 @@ This is helm repository for HyperReigstry
 - [2. HyperAuth OIDC 연동](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/oidc.md)
 - [3. 레지스트리 생성 및 설정하기](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/README.md#%EB%A0%88%EC%A7%80%EC%8A%A4%ED%8A%B8%EB%A6%AC-%EC%83%9D%EC%84%B1-%EB%B0%8F-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
 
+
 ## Optional Installation
 
 - [P2P Preheat 연동](https://github.com/learncloud/HyperRegistry-Chart-5.0/blob/main/docs/kraken.md) 
